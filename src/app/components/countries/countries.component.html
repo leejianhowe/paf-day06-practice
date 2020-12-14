@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="list-group" *ngFor="let item of list">
+    <div class="list-group-item" [routerLink]="['/country',item]">
+      {{item}}
+    </div>
+  </div>
+</div>
